@@ -43,7 +43,7 @@ button:hover { /*efeito no botão de busca*/
     height: 20px; /*altura*/
 }
 
-.media-box {
+.caixa-média{ /*caixa-média*/
     margin-top: 30px;
 
 }
@@ -53,7 +53,7 @@ h2 { /* aparece o nome da cidade  */
     font-size: 28px; 
 }
 
-.first-box{ /* primeria caixa */ 
+.primeira-caixa{ /* primeria caixa */ 
     background-color: black; /* cor de fundo*/
     width: 95%; /* largura de 95% da tela*/
     max-width: 420px; /*largura máxima*/
@@ -62,20 +62,21 @@ h2 { /* aparece o nome da cidade  */
     border-radius: 25px; /* borda do elemento */
 }
 
-.time { /* tempo */
+.temperatura { /* temperatura */
     color: white;
     margin-top: 30px;
-    margin-bottom: 10px;
+   
 }
 
-.description { /* descrição do tempo */
+.descricao { /* descrição do temperatura */
     color: white;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+   
 }
 
-.moisture { /*umidade*/
+.umidade { /*umidade*/
     color: white;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+   
+
 }
