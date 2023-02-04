@@ -1,0 +1,81 @@
+* {
+    margin: 0; /* zera a margem*/
+    padding: 0; /* zera o espaço*/
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+body {
+    display: flex; /* elementos */
+    justify-content: center; /* texto ao centro*/
+    align-items: center; /* alinhamento central*/
+    height: 100vh; /* Body ocupando toda página*/
+    width: 100vw; /* larguda toda da página*/
+    background-image: url("https://source.unsplash.com/1800x900/?landscape");
+}
+
+input {
+    color: white;
+    border: none; /* elemento sem borda*/
+    outline: none; /* sem bora de seleção de elemento*/
+    padding: 10px; /* sem bora de seleção de elemento*/
+    border-radius: 20px; /* borcas arredondadas */
+    font-size: 20px; /* tamanho de texot no input */
+    background-color: #7c7c7c2b;
+}
+
+button { /*botão de busca*/
+    border: none; /* elemento sem borda*/
+    outline: none; /* sem bora de seleção de elemento*/
+    padding: 10px; /* sem bora de seleção de elemento*/
+    border-radius: 50px; /* elemento sem borda*/
+    background-color: #7c7c7c2b;
+    float: right;  /*tudo para direita*/ 
+    cursor: pointer;   
+}
+
+button:hover { /*efeito no botão de busca*/
+    background-color: #7c7c7c6b;
+  
+}
+
+.lupa { /*botão de busca*/
+    height: 20px; /*altura*/
+}
+
+.media-box {
+    margin-top: 30px;
+
+}
+
+h2 { /* aparece o nome da cidade  */
+    color: white;
+    font-size: 28px; 
+}
+
+.first-box{ /* primeria caixa */ 
+    background-color: black; /* cor de fundo*/
+    width: 95%; /* largura de 95% da tela*/
+    max-width: 420px; /*largura máxima*/
+    opacity: 0.7; /* opacidade do item */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 25px; /* borda do elemento */
+}
+
+.time { /* tempo */
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.description { /* descrição do tempo */
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.moisture { /*umidade*/
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
