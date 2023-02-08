@@ -24,6 +24,7 @@ input {
     border-radius: 20px; /* borcas arredondadas */
     font-size: 20px; /* tamanho de texot no input */
     background-color: #7c7c7c2b;
+    width: calc(100% - 100px);
 
 }
 
@@ -83,12 +84,14 @@ h2 { /* aparece o nome da cidade  */
 
 .descricao { /* descrição do temperatura */
     color: white;
-    margin-top: 20px;
+    text-transform: capitalize;
+    margin-left: 20px;
    
 }
 
 .umidade { /*umidade*/
     color: white;
     margin-top: 30px;
+    margin-bottom: 15px;
    
 }
