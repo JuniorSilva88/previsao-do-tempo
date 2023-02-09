@@ -7,7 +7,7 @@ function exibirNaTela(dados){
     console.log(dados)
 
     document.querySelector(".cidade").innerHTML = "Tempo em " + dados.name
-    document.querySelector(".temperatura").innerHTML = Math.floor(dados.main.temp) + "°C , Mínima de " + Math.floor(dados.main.temp_min) + "°C e Máxima de " + Math.floor(dados.main.temp_max) + "°C"
+    document.querySelector(".temperatura").innerHTML = "Temperatura " + Math.floor(dados.main.temp) + "°C , Mínima de " + Math.floor(dados.main.temp_min) + "°C e Máxima de " + Math.floor(dados.main.temp_max) + "°C"
     document.querySelector(".descricao").innerHTML =  dados.weather[0].description
     document.querySelector(".umidade").innerHTML = "Umidade de  " + dados.main.humidity + "%"
     document.querySelector(".icone").src = "https://openweathermap.org/img/wn/" + dados.weather[0].icon + ".png"
